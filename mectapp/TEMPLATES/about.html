@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+    <title> About - MECT Workplace</title>
+    {% if s  ==  1 %}
+    <link rel="stylesheet" href="{% static '/dark/css/about.css' %}">
+    {% else %}
+    <link rel="stylesheet" href="{% static '/css/about.css' %}">
+    {% endif %}
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="static/css/all.css">
+	</head>
+  <body>
+    <div class="wrapper">
+      <div class="top-bar">
+        <h1 class="heading">About</h1>
+        <button class="close"><i class="fa fa-times" aria-hidden="true"></i></button>
+      </div>
+      <div class="main">
+        <p class="description">ReMOte MENToring (MOMENT) is an initiative by the Department of
+        Mechatronics of Thiagarajar College of Engineering. Through this
+        application we focus to simplify the faculty-student interaction
+        for benefiting the student community.
+        </p>
+        <p class="icons">Icons made by
+        <br>
+        <br>
+
+        <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        <br>
+        <a href="https://www.flaticon.com/authors/becris" title="Becris">Becris</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+
+        </p>
+      </div>
+    </div>
+    <script src="static/js/jquery.js"></script>
+		<script src="static/js/about.js"></script>
+  </body>
+</html>
